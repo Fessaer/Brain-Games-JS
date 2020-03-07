@@ -10,7 +10,8 @@ globals:
 parserOptions:
   ecmaVersion: 2018
   sourceType: module
-rules: 
+rules:
+  linebreak-style: 0 
   no-console: 0 
   import/extensions: 0 # FIXME: remove when rule will be adjusted for new nodejs version
 
