@@ -8,9 +8,8 @@ jobs:
   eslint:
     runs-on: ubuntu-latest
     steps:
-       - name: npm install
-        run: |
-          make install
+      - name: npm install
+        run: make installPatch
       - uses: actions/checkout@v1
       - name: Run linter
         run: make lint
