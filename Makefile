@@ -1,7 +1,10 @@
-install:
+install: 
 	npm install
+	
 	npm install eslint --save-dev
+	
 	npm install --save eslint-config-airbnb
+	
 	npm install eslint-plugin-import --save-dev
 
 start:
