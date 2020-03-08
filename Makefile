@@ -1,6 +1,5 @@
 install: npm install
-installPatch:
-	npm install --save eslint-config-airbnb
+installPatch: npm install --save eslint-config-airbnb
 
 start:
 	npx node bin/brain-games.js
