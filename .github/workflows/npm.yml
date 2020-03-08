@@ -8,6 +8,10 @@ jobs:
   eslint:
     runs-on: ubuntu-latest
     steps:
+      - name: airbnb
+        uses: instal eslint-config-airbnb
+        run: npm install --save eslint-config-airbnb
+
       - uses: actions/checkout@v1
       - name: Run linter
         run: make lint
