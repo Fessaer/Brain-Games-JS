@@ -1,4 +1,5 @@
 install: npm install
+
 installPatch: npm install --save eslint-config-airbnb
 
 start:
