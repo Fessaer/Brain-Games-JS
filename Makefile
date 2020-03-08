@@ -8,3 +8,6 @@ publish:
 
 lint:
 	npx eslint .
+
+installPatch:
+	npm install --save eslint-config-airbnb
