@@ -4,7 +4,7 @@ install: npm install
 	 npm install eslint-plugin-import --save-dev
 
 start:
-	npx node bin/brain-games.js
+      npx node bin/brain-games.js
 
 publish:
 	npm publish --dry-run
