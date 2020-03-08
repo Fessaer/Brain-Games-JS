@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Fessaer/Brain-Games-JS#readme",
   "dependencies": {
+    "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-jest": "^23.8.2",
     "make": "^0.8.1",
     "readline-sync": "^1.4.10"
