@@ -1,14 +1,13 @@
 #!/usr/bin/env node
-import { getRandom } from 'brain-even.js';
+import { getRandom, currectFun } from "./brain-even.js";
+import readlineSync from "readline-sync";
 
-import readlineSync from 'readline-sync';
+console.log("Welcome to the Brain Games!");
 
-console.log('Welcome to the Brain Games!');
+export const name = readlineSync.question("My I have your name? "); // говорим имя
 
-const actual = readlineSync.question('My I have your name? ');
+console.log(`Hello, ${name}`); //приветствие
 
-console.log(`Hello, ${actual}`);
+console.log('Answer "yes" if the number is even, otherwise answer "no"'); //условия игры
 
-console.log('Answer "yes" if the number is even, otherwise answer "no"');
-
-console.log(getRandom(1, 10));
+currectFun(name);
