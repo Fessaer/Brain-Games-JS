@@ -1,4 +1,4 @@
-import makeGame from '..';
+import makeGame from '../index';
 import getRandomNum from '../random';
 
 const gameСondition = 'Answer "yes" if given number is prime. Otherwise answer "no".';

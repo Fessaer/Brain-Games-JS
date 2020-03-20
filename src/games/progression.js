@@ -1,4 +1,4 @@
-import makeGame from '..';
+import makeGame from '../index';
 import getRandomNum from '../random';
 
 const gameСondition = 'What number is missing in the progression?';
